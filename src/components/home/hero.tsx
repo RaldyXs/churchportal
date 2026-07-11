@@ -6,6 +6,8 @@
  * al usuario a conocer la iglesia.
  */
 
+import Button from "../ui/Button";
+
 export default function Hero() {
   return (
     <section className="bg-slate-50">
@@ -33,13 +35,13 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
 
-            <button className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700">
-              Planifica tu visita
-            </button>
+          <Button>
+            Planifica tu visita
+          </Button>
 
-            <button className="rounded-xl border border-slate-300 px-8 py-4 font-semibold transition hover:bg-slate-100">
+            <Button variant="secondary">
               Conócenos
-            </button>
+            </Button>
 
           </div>
 
