@@ -1,16 +1,19 @@
-import HeroSection from "../features/home/HeroSection";
+import Hero from "../components/home/hero";
+import About from "..//components/home/about"
 
 /**
  * HomePage
  *
  * Página principal del portal.
- * Aquí se ensamblan todas las secciones.
+ * Su responsabilidad es ensamblar las secciones
+ * que componen la pantalla de inicio.
  */
 
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
+      <Hero />
+      <About />
     </>
   );
 }

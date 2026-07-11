@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PublicLayout from "../components/layout/PublicLayout";
 
 // Importación de las páginas de la aplicación
-import HomePage from "../pages/HomePage";
+import HomePage from "../pages/homePage";
 import AboutPage from "../pages/AboutPage";
 import EventsPage from "../pages/EventsPage";
 import DonatePage from "../pages/DonatePage";
