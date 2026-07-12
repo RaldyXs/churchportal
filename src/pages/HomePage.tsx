@@ -10,7 +10,7 @@
 import Hero from "../components/home/Hero";
 import About from "../components/home/About";
 import VisitSection from "../components/home/VisitSection";
-
+import Ministries from "../components/home/Ministries";
 /**
  * HomePage
  *
@@ -22,6 +22,7 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
+      <Ministries />
       <VisitSection />
     </>
   );
