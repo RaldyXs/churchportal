@@ -8,7 +8,7 @@
 
 import { Heart, BookOpen, Handshake, Globe } from "lucide-react";
 import ValueCard from "./ValueCard";            
-
+import SectionTitle from "../ui/SectionTitle";
 /**
  * Información de los valores de la iglesia.
  * Cada objeto representa una tarjeta.
@@ -38,21 +38,13 @@ const values = [
 
 export default function About() {
   return (
-    <section className="bg-white py-20">
+    <section id="nosotros" className="scroll-mt-20bg-white py-20">
       <div className="mx-auto max-w-6xl px-6 text-center">
-        <span className="text-sm font-semibold uppercase tracking-widest text-blue-600">
-          Sobre nosotros
-        </span>
-
-        <h2 className="mt-4 text-4xl font-bold text-slate-900">
-          Más que un edificio, una comunidad.
-        </h2>
-
-        <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-          Somos una iglesia comprometida con compartir el evangelio,
-          fortalecer a las familias y servir a nuestra comunidad mediante
-          el amor, la enseñanza bíblica y el servicio.
-        </p>
+        <SectionTitle
+            eyebrow="Sobre nosotros"
+            title="Más que un edificio, una comunidad."
+            description="Somos una iglesia comprometida con compartir el evangelio, fortalecer a las familias y servir a nuestra comunidad mediante el amor, la enseñanza bíblica y el servicio."
+          />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {values.map((value) => {
