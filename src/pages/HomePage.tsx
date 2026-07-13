@@ -11,6 +11,7 @@ import Hero from "../components/home/Hero";
 import About from "../components/home/About";
 import VisitSection from "../components/home/VisitSection";
 import Ministries from "../components/home/Ministries";
+import UpcomingEvents from "../components/home/UpcomingEvents";
 /**
  * HomePage
  *
@@ -23,7 +24,9 @@ export default function HomePage() {
       <Hero />
       <About />
       <Ministries />
+      <UpcomingEvents />
       <VisitSection />
+      
     </>
-  );
+  ); 
 }
