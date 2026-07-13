@@ -6,6 +6,7 @@
  * Responsabilidades:
  * - Presentar el mensaje principal.
  * - Dirigir al visitante hacia información relevante.
+ * - Servir como sección inicial para la navegación activa.
  */
 
 import Button from "../ui/Button";
@@ -25,7 +26,10 @@ function scrollToSection(sectionId: string) {
 
 export default function Hero() {
   return (
-    <section className="bg-slate-50">
+    <section
+      id="inicio"
+      className="scroll-mt-20 bg-slate-50"
+    >
       <div className="mx-auto grid min-h-[85vh] max-w-7xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
         <div>
           <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
