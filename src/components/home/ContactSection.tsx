@@ -112,7 +112,7 @@ export default function ContactSection() {
   return (
     <section
       id="contacto"
-      className="scroll-mt-20 bg-slate-50 py-24"
+      className="scroll-mt-20 bg-stone-50 py-24"
     >
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle

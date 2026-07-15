@@ -58,7 +58,7 @@ export default function VisitSection() {
   return (
     <section
       id="visita"
-      className="scroll-mt-20 bg-white py-20"
+      className="scroll-mt-20 bg-white py-24"
     >
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle

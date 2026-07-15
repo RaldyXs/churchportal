@@ -19,7 +19,7 @@ export default function UpcomingEvents() {
   return (
     <section
       id="eventos"
-      className="scroll-mt-20 bg-white py-20"
+      className="scroll-mt-20 bg-amber-50/40 py-24"
     >
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle

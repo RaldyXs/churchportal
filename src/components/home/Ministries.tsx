@@ -19,7 +19,7 @@ export default function Ministries() {
   return (
     <section
       id="ministerios"
-      className="scroll-mt-20 bg-slate-50 py-20"
+      className="scroll-mt-20 bg-white py-24"
     >
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle
