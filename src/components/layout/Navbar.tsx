@@ -163,7 +163,7 @@ export default function Navbar() {
       }`}
     >
       <nav
-        className="mx-auto max-w-7xl px-6"
+        className="mx-auto max-w-7xl px-4 sm:px-6"
         aria-label="Navegación principal"
       >
         <div
@@ -175,7 +175,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => navigateToSection("inicio")}
-            className={`text-2xl font-bold transition-colors duration-300 ${
+            className={`text-xl font-bold transition-colors duration-300 sm:text-2xl ${
               isScrolled
                 ? "text-blue-700"
                 : "text-white"

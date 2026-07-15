@@ -36,7 +36,7 @@ export default function Hero() {
     >
       {/* Imagen de fondo */}
       <div
-        className="absolute inset-0 scale-105 bg-cover bg-center"
+        className="absolute inset-0 scale-105 bg-cover bg-position-[65%_center] sm:bg-center"
         style={{
           backgroundImage: `url(${heroImage})`,
         }}
@@ -68,14 +68,14 @@ export default function Hero() {
             Bienvenido a casa
           </span>
 
-          <h1 className="mt-8 max-w-4xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="mt-7 max-w-4xl text-4xl font-black leading-[1.08] tracking-tight text-white sm:mt-8 sm:text-5xl md:text-6xl lg:text-7xl">
             Un lugar donde la fe
             <span className="block text-blue-300">
               se vive en comunidad.
             </span>
           </h1>
 
-          <p className="mt-7 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg md:text-xl">
+          <p className="mt-6 max-w-2xl text-base leading-7 text-slate-200 sm:mt-7 sm:text-lg sm:leading-8 md:text-xl">
             Descubre una comunidad donde podrás crecer
             espiritualmente, conocer a Cristo y compartir
             la vida junto a otras personas.
