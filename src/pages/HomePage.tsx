@@ -12,6 +12,7 @@ import About from "../components/home/About";
 import VisitSection from "../components/home/VisitSection";
 import Ministries from "../components/home/Ministries";
 import UpcomingEvents from "../components/home/UpcomingEvents";
+import ContactSection from "../components/home/ContactSection";
 /**
  * HomePage
  *
@@ -26,6 +27,7 @@ export default function HomePage() {
       <Ministries />
       <UpcomingEvents />
       <VisitSection />
+      <ContactSection />
       
     </>
   ); 

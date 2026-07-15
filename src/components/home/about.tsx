@@ -38,7 +38,7 @@ const values = [
 
 export default function About() {
   return (
-    <section id="nosotros" className="scroll-mt-20bg-white py-20">
+    <section id="nosotros" className="scroll-mt-20 bg-stone-50 py-24">
       <div className="mx-auto max-w-6xl px-6 text-center">
         <SectionTitle
             eyebrow="Sobre nosotros"
